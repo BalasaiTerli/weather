@@ -1,0 +1,75 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    height:100vh;
+    flex-direction: column;
+}
+.card1{
+    display:flex;
+    background-color: white;
+    width:50%;
+    height:50px;
+    padding:20px;
+    align-items:center;
+    justify-content: space-between;
+}
+input{
+    height:30px;
+    width:50%;
+    border:none;
+    outline:none;
+    font-size:30px;
+}
+input::placeholder{
+    color:black;
+    font-size:30px;
+}
+.card2{
+    display:none;
+    background-color: white;
+    
+    width:50%;
+    flex-direction: column;
+    padding:20px;
+    align-items:center;
+}
+.card2 img{
+    border-radius: 20px;;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.card3{
+    display:none;
+    justify-content: space-between;
+    flex-direction: row;
+    color:white;
+    background-color:white;
+    width:50%;
+     padding:20px;
+     color:black;
+}
+@media (max-width:575px){
+    input::placeholder{
+    color:black;
+    font-size:20px;
+}
+}
+.visible{
+    display:flex;
+}
+.card1 button{
+    color:black;
+    font-size: 30px;
+    outline:none;
+    border:none;
+    background-color: white;
+    cursor:pointer
+}
+.card3 i{
+    font-size:30px;
+    margin-right: 15px;;
+}
